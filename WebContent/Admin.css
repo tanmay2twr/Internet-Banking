@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*Styling login form */
+.login-block {
+	font-family: Helvetica;
+	float: left;
+	width: 100%;
+	padding: 100px 0;
+}
+
+/*Styling banner section*/
+.banner-sec {
+	background: url(ImageRes/background.jpg) no-repeat;
+	border-radius: 0px 0px 0px 0px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+
+.container {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login-sec {
+	padding: 50px 30px;
+	position: relative;
+}
+
+.login-sec .copy-text {
+	position: absolute;
+	width: 80%;
+	bottom: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.login-sec h2 {
+	margin-bottom: 30px;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.btn-login {
+	background-color: #0b89f0; /* fb blue */
+	border: none;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: white;
+	font-weight: 1000;
+}
+
+.banner-text {
+	width: 70%;
+	position: absolute;
+	bottom: 40px;
+	padding-left: 20px;
+}
+
+.banner-text h2 {
+	color: #fff;
+	font-weight: 600;
+}
+
+.status-button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: white;
+	border: 2px solid #0000ff;
+	font-size: 16px;
+	color: black;
+	font-weight: 1000;
+	padding: 5px;
+}
+
+.banner-text h2:after {
+	width: 100px;
+	height: 5px;
+	display: block;
+	margin-top: 200px;
+	border-radius: 3px;
+}
+
+.banner-text p {
+	color: #fff;
+}
